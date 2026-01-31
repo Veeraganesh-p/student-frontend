@@ -1,0 +1,67 @@
+.problems-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.problems-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.problems-header h2 {
+  font-size: 32px;
+  color: #333;
+}
+
+.problems-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.problem-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.problem-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.problem-card p {
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.budget {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.deadline {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.solution-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.solution-btn:hover {
+  background: #0056b3;
+}

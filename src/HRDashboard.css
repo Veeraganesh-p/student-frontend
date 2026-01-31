@@ -1,0 +1,72 @@
+.hr-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hr-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.hr-header h2 {
+  font-size: 32px;
+  color: #333;
+  margin: 0;
+}
+
+.solutions-table {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.solutions-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.solutions-table th,
+.solutions-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.solutions-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #555;
+}
+
+.solutions-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.text-truncate {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .solutions-table {
+    overflow-x: auto;
+  }
+  
+  .solutions-table table {
+    min-width: 800px;
+  }
+  
+  .solutions-table th,
+  .solutions-table td {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+}
